@@ -1,0 +1,122 @@
+body {
+  padding-top: 56px;
+}
+
+.bg-image-hero {
+  background: rgba(24, 24, 24, 0.9) url("../images/home.jpg") center / cover;
+  background-blend-mode: overlay;
+  height: 100vh;
+}
+
+.bg-color-purple {
+  background-color: rgba(73, 0, 213, 255);
+}
+
+.text-color-red {
+  color: red;
+}
+
+form input:hover {
+  cursor: none;
+}
+
+img {
+  width: 100%;
+}
+
+.nav-menu-hover {
+  transition: 0.6s;
+  border-right: 2px dotted transparent;
+}
+
+.nav-menu-hover:hover {
+  border-right: 2px dotted white;
+}
+
+/* ___________________________________________________________________________________ */
+/* Adding highlights to titles on hover */
+/* Grey sections title highlight hover */
+
+:root {
+  --pinkColor: rgb(136, 67, 99);
+}
+
+.titles-hover-pink {
+  background: linear-gradient(
+    to right,
+    var(--pinkColor) 0%,
+    var(--pinkColor) 5px,
+    transparent 5px
+  );
+  background-repeat: repeat-x;
+  background-size: 100%;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+.titles-hover-pink:hover {
+  background: linear-gradient(
+    to right,
+    var(--pinkColor) 0%,
+    var(--pinkColor) 5px,
+    transparent
+  );
+}
+
+/* White sections title highlight hover */
+
+:root {
+  --lightpinkColor: rgb(228, 173, 198);
+}
+
+.titles-hover-lightpink {
+  background: linear-gradient(
+    to right,
+    var(--lightpinkColor) 0%,
+    var(--lightpinkColor) 5px,
+    transparent 5px
+  );
+  background-repeat: repeat-x;
+  background-size: 100%;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+.titles-hover-lightpink:hover {
+  background: linear-gradient(
+    to right,
+    var(--lightpinkColor) 0%,
+    var(--lightpinkColor) 5px,
+    transparent
+  );
+}
+
+/* Purple sections title highlight hover */
+
+:root {
+  --greyColor: rgb(199, 199, 199);
+}
+
+.titles-hover-grey {
+  background: linear-gradient(
+    to right,
+    var(--greyColor) 0%,
+    var(--greyColor) 5px,
+    transparent 5px
+  );
+  background-repeat: repeat-x;
+  background-size: 100%;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+.titles-hover-grey:hover {
+  background: linear-gradient(
+    to right,
+    var(--greyColor) 0%,
+    var(--greyColor) 5px,
+    transparent
+  );
+}
+
+/* ___________________________________________________________________________________ */

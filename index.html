@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Responsive website made with Bootstrap</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="./css/style.css"  />
+    <!-- Latest compiled and minified Bootstrap 4.4.1 CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css"> 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./fontawesome/Css/all.css" /> 
+  </head>
+
+  <!-- Automatically update Bootstrap navigation or list group components based on scroll position to indicate which link is currently active in the viewport. -->
+  <body data-spy="scroll" data-target="#navbar" id="home">
+
+    <!-- ------ -->
+    <!-- Header -->
+    <!-- ------ -->
+    <header class="fixed-top">
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand text-uppercase" href="#">Blogger</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navigation-menu"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navigation-menu">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link nav-menu-hover" href="#home">
+                Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-menu-hover" href="#explore">Explore</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-menu-hover" href="#create">Create</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-menu-hover" href="#share">Share</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ------------ -->
+    <!-- Hero section -->
+    <!-- ------------ -->
+    <section class="bg-image-hero container-fluid">
+        <div class="row h-100 align-items-center">
+          <!-- Left text box -->
+          <div class="col-lg-5 offset-2 d-none d-lg-block text-white">
+            <h1>
+              Build
+              <span class="text-color-red">social profiles</span>
+              and gain revenue and
+              <span class="text-color-red">profits</span>
+            </h1>
+            <ul class="list-unstyled px-5">
+              <li class="media">
+                <i
+                  class="fas fa-check mr-3 mt-1 p-1 bg-white text-info rounded"
+                ></i>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Temporibus optio tempore doloribus ex magnam aspernatur saepe
+                  sit quod!
+                </p>
+              </li>
+              <li class="media">
+                <i
+                  class="fas fa-check mr-3 mt-1 p-1 bg-white text-info rounded"
+                ></i>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Temporibus optio tempore doloribus ex magnam aspernatur saepe
+                  sit quod!
+                </p>
+              </li>
+              <li class="media">
+                <i
+                  class="fas fa-check mr-3 mt-1 p-1 bg-white text-info rounded"
+                ></i>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Temporibus optio tempore doloribus ex magnam aspernatur saepe
+                  sit quod!
+                </p>
+              </li>
+            </ul>
+          </div>
+          <!-- Right text box -->
+          <div class="col-lg-3">
+            <form class="bg-color-purple text-white text-center px-2 py-4">
+              <h5 class="mb-1">Sign Up Today</h5>
+              <p>Please fill out this form to register</p>
+              <input
+                type="text"
+                placeholder="Username"
+                class="form-control form-control-sm my-3"
+              />
+              <input
+                type="email"
+                placeholder="Email"
+                class="form-control form-control-sm my-3"
+              />
+              <input
+                type="password"
+                placeholder="Password"
+                class="form-control form-control-sm my-3"
+              />
+              <input
+                type="password"
+                placeholder="Confirm Password"
+                class="form-control form-control-sm my-3"
+              />
+              <button type="submit" class="btn btn-outline-light btn-sm w-100">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+    </section>
+
+    <!-- --------------- -->
+    <!-- Explore section -->
+    <!-- --------------- -->
+    <section id="explore">
+      <div class="container-fluid bg-dark text-light">
+          <div class="row">
+            <div class="col-11 mx-auto py-4 text-center">
+              <h3><span class="titles-hover-pink">Explore</span></h3>
+              <p>
+                Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet
+                consectetur. ipsum dolor sit amet consectetur, adipisicing elit.
+                Nulla, fuga? Lorem ipsum dolor sit amet. consectetur adipisicing
+                elit. Beatae, tenetur modi? Ad, corrupti perspiciatis. Deserunt
+                labore praesentium unde, tempora nulla odit exercitationem.
+                Autem id corrupti aliquid placeat optio deleniti temporibus?
+              </p>
+              <button type="button" class="btn btn-outline-light btn-sm">
+                Find Out More
+              </button>
+            </div>
+          </div>
+      </div>
+
+      <!-- Explore and connect -->
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row py-4">
+            <div class="col-12 col-lg-6">
+              <img
+                class="img-fluid rounded-circle mb-3 mb-lg-0"
+                src="./images/explore-section.jpg"
+                alt="Explore nature image"
+              />
+            </div>
+            <div class="col-12 col-lg-6 d-flex align-items-center">
+              <div>
+                <h4><span class="titles-hover-lightpink"> Explore & Connect</span></h4>
+                <p>
+                  Lorem ipsum dolor sit amet. Nulla, fuga? Lorem ipsum dolor sit
+                  amet. consectetur adipisicing elit. Beatae, tenetur modi? Ad,
+                  corrupti perspiciatis. Deserunt labore praesentium unde,
+                  tempora nulla odit exercitationem. Autem id corrupti aliquid
+                  placeat optio deleniti temporibus?
+                </p>
+                <ul class="list-unstyled px-5">
+                  <li class="media">
+                    <i
+                      class="fas fa-check mr-4 p-1 bg-dark text-white rounded"
+                    ></i>
+                    <p>
+                      Lorem ipsum dolor sit amet adipisicing elit. Quibusdam
+                      quae fuga nulla ipsum natus.
+                    </p>
+                  </li>
+                  <li class="media">
+                    <i
+                      class="fas fa-check mr-4 p-1 bg-dark text-white rounded"
+                    ></i>
+                    <p>
+                      Lorem ipsum dolor sit amet adipisicing elit. Quibusdam
+                      quae fuga nulla ipsum natus.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- -------------- -->
+    <!-- Create section -->
+    <!-- -------------- -->
+    <section id="create">
+      <div class="container-fluid bg-color-purple text-light">
+          <div class="row">
+            <div class="col-11 mx-auto py-4 text-center">
+              <h3><span class="titles-hover-grey"> Create</span></h3>
+              <p>
+                Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet
+                consectetur. ipsum dolor sit amet consectetur, adipisicing elit.
+                Nulla, fuga? Lorem ipsum dolor sit amet. consectetur adipisicing
+                elit. Beatae, tenetur modi? Ad, corrupti perspiciatis. Deserunt
+                labore praesentium unde, tempora nulla odit exercitationem.
+                Autem id corrupti aliquid placeat optio deleniti temporibus?
+              </p>
+              <button type="button" class="btn btn-outline-light btn-sm">
+                Find Out More
+              </button>
+            </div>
+          </div>
+      </div>
+
+      <!-- Create your passion -->
+      <div class="container-fluid bg-dark text-light">
+        <div class="container">
+          <div class="row py-4">
+            <div class="col-12 col-lg-6 d-flex align-items-center">
+              <div>
+                <h4><span class="titles-hover-pink">Create Your Passion</span></h4>
+                <p>
+                  Lorem ipsum dolor sit amet. Nulla, fuga? Lorem ipsum dolor sit
+                  amet. consectetur adipisicing elit. Beatae, tenetur modi? Ad,
+                  corrupti perspiciatis. Deserunt labore praesentium unde,
+                  tempora nulla odit exercitationem. Autem id corrupti aliquid
+                  placeat optio deleniti temporibus?
+                </p>
+                <ul class="list-unstyled px-5">
+                  <li class="media">
+                    <i
+                      class="fas fa-check mr-4 p-1 bg-white text-info rounded"
+                    ></i>
+                    <p>
+                      Lorem ipsum dolor sit amet adipisicing elit. Quibusdam
+                      quae fuga nulla ipsum natus.
+                    </p>
+                  </li>
+                  <li class="media">
+                    <i
+                      class="fas fa-check mr-4 p-1 bg-white text-info rounded"
+                    ></i>
+                    <p>
+                      Lorem ipsum dolor sit amet adipisicing elit. Quibusdam
+                      quae fuga nulla ipsum natus.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <img
+                class="img-fluid rounded-circle mb-3 mb-lg-0"
+                src="./images/create-section.jpg"
+                alt="A photo of man working on laptop"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------- -->
+    <!-- Share section -->
+    <!-- ------------- -->
+    <section id="share">
+      <div class="container-fluid bg-color-purple text-light">
+          <div class="row">
+            <div class="col-11 mx-auto py-4 text-center">
+              <h3><span class="titles-hover-grey"> Share</span></h3>
+              <p>
+                Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet
+                consectetur. ipsum dolor sit amet consectetur, adipisicing elit.
+                Nulla, fuga? Lorem ipsum dolor sit amet. consectetur adipisicing
+                elit. Beatae, tenetur modi? Ad, corrupti perspiciatis. Deserunt
+                labore praesentium unde, tempora nulla odit exercitationem.
+                Autem id corrupti aliquid placeat optio deleniti temporibus?
+              </p>
+              <button type="button" class="btn btn-outline-light btn-sm">
+                Find Out More
+              </button>
+            </div>
+          </div>
+      </div>
+      
+      <!-- Share what you create -->
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row py-4">
+            <div class="col-12 col-lg-6">
+              <img
+                class="img-fluid rounded-circle mb-3 mb-lg-0"
+                src="./images/share-section.jpg"
+                alt="Group of people dancing at the beach"
+              />
+            </div>
+            <div class="col-12 col-lg-6 d-flex align-items-center">
+              <div>
+                <h4><span class="titles-hover-lightpink">Share What You Create</span></h4>
+                <p>
+                  Lorem ipsum dolor sit amet. Nulla, fuga? Lorem ipsum dolor sit
+                  amet. consectetur adipisicing elit. Beatae, tenetur modi? Ad,
+                  corrupti perspiciatis. Deserunt labore praesentium unde,
+                  tempora nulla odit exercitationem. Autem id corrupti aliquid
+                  placeat optio deleniti temporibus?
+                </p>
+                <ul class="list-unstyled px-5">
+                  <li class="media">
+                    <i
+                      class="fas fa-check mr-4 p-1 bg-dark text-white rounded"
+                    ></i>
+                    <p>
+                      Lorem ipsum dolor sit amet adipisicing elit. Quibusdam
+                      quae fuga nulla ipsum natus.
+                    </p>
+                  </li>
+                  <li class="media">
+                    <i
+                      class="fas fa-check mr-4 p-1 bg-dark text-white rounded"
+                    ></i>
+                    <p>
+                      Lorem ipsum dolor sit amet adipisicing elit. Quibusdam
+                      quae fuga nulla ipsum natus.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------ -->
+    <!-- Footer -->
+    <!-- ------ -->
+    <footer>
+      <div class="container-fluid py-4 text-center bg-dark text-light">
+        <a href="#" class="text-uppercase text-decoration-none text-white h4">Blogger</h4>
+          </a>
+        <p class="d-block">Copyright &copy; 2017</p>
+        <button type="button" class="btn btn-primary btn-sm">Contact Us</button>
+      </div>
+    </footer>
+
+
+    
+    <!-- jQuery library -->
+    <script src="./js/jquery-3.6.0.min.js"></script>
+
+    <!-- Latest Compiled Bootstrap 4.4.1 JavaScript -->
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    
+    <!-- Automatically update Bootstrap navigation or list group components based on scroll position to indicate which link is currently active in the viewport. -->
+    <script>
+      $("body").scrollspy({ target: "#navigation-menu" });
+    </script>
+    
+  </body>
+</html>
